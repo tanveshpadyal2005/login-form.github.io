@@ -1,0 +1,118 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.screen{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(30deg,rgb(218, 218, 218) 40%,rgb(28, 33, 36)40%); */
+    background: url(./dark-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.screen2{
+    /* position: absolute;
+    z-index: 1000; */
+    border-radius: 10px;
+    /* border: 1px solid rgba(88, 88, 88, 0.281); */
+    box-shadow: inset 2px 2px 15px 1px rgb(0, 0, 0,.4),inset -2px -2px 15px 1px rgb(0, 0, 0,.4),inset -0.1px -0.1px 1px 1px rgb(0, 0, 0,.4),7px 0px 30px 2px rgb(255, 255, 255,.5);
+    height: 65vh;
+    width: 50%;
+    background-color: white;
+    position: relative;
+    border-top: 2px solid rgb(255, 153, 0);
+    border-bottom: 1px solid rgb(0, 0, 0,.4);
+
+}
+
+ #img2{
+    height: 64.66vh;
+    width: 48%;
+    object-fit: cover;
+    position: absolute;
+    left: 25rem;
+    border-radius: 2px 10px 10px 2px;
+    
+    
+}
+
+
+#img1{
+    position: absolute;
+    left: 1rem;
+    top: .5rem;
+}
+
+.screen2 h1{
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+    font-size: 1.9rem;
+    line-height: 30px;
+    font-weight: 600 !important;
+    
+}
+
+.screen2 span{
+    font-size: .9rem;
+    font-weight: 400 !important;
+    
+}
+
+.form{
+    margin-left: 2rem;
+    font-size: .8rem;
+    
+}
+a:link{
+    text-decoration: none;  
+}
+
+.input1{
+    font-size: 13px !important;
+    width: 38% !important;
+    height: 2.5rem !important;
+    
+}
+.input2{
+    font-size: 13px !important;
+    width: 38% !important;
+    height: 2.5rem !important;
+}
+
+.submit-btn{
+    /* background-color: rgb(255, 153, 0) !important; */
+    background-color: rgb(200, 200, 200) !important;
+    color: black !important;
+    /* background-size: contain !important; */
+    border: 1px solid rgb(255, 153, 0) !important;
+    width: 20%;
+    margin-left: 5.5rem;
+    margin-top: .5rem;
+}
+
+
+
+.submit-btn:hover{
+    background-color: rgb(255, 153, 0) !important;
+    border: none;
+    transition: .3s;
+    transition-timing-function: linear;
+}
+
+.fpass{
+    font-size: .8rem;
+}
